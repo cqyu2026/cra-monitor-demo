@@ -1,0 +1,8 @@
+.venv/
+chroma_db/
+project_docs/*
+!project_docs/.gitkeep
+sample_data/
+__pycache__/
+*.py[cod]
+.DS_Store

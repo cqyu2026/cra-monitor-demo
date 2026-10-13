@@ -1,0 +1,4 @@
+streamlit==1.63.0
+chromadb==1.5.9
+pypdf==6.20.1
+requests==2.34.2
