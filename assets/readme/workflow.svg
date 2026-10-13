@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">CRA 监查辅助工作流</title>
+  <desc id="desc">上传文件、检索依据、人工复核、生成报告的四步流程。</desc>
+  <rect width="1200" height="230" rx="24" fill="#f4f7fa"/>
+  <path d="M210 115H990" stroke="#b8c8d8" stroke-width="3" stroke-dasharray="8 10"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+    <g transform="translate(60 45)"><circle cx="70" cy="70" r="48" fill="#0b3655"/><text x="53" y="80" fill="#fff" font-size="25" font-weight="700">01</text><text x="0" y="145" fill="#10273c" font-size="22" font-weight="700">上传与解析</text><text x="0" y="173" fill="#5a7187" font-size="16">PDF / TXT / Word / Excel / JPG</text></g>
+    <g transform="translate(350 45)"><circle cx="70" cy="70" r="48" fill="#176b78"/><text x="53" y="80" fill="#fff" font-size="25" font-weight="700">02</text><text x="0" y="145" fill="#10273c" font-size="22" font-weight="700">检索条款</text><text x="0" y="173" fill="#5a7187" font-size="16">法规层 + 项目层隔离</text></g>
+    <g transform="translate(640 45)"><circle cx="70" cy="70" r="48" fill="#c56d2a"/><text x="53" y="80" fill="#fff" font-size="25" font-weight="700">03</text><text x="0" y="145" fill="#10273c" font-size="22" font-weight="700">CRA 复核</text><text x="0" y="173" fill="#5a7187" font-size="16">采纳 / 忽略 / 编辑</text></g>
+    <g transform="translate(930 45)"><circle cx="70" cy="70" r="48" fill="#243a56"/><text x="53" y="80" fill="#fff" font-size="25" font-weight="700">04</text><text x="0" y="145" fill="#10273c" font-size="22" font-weight="700">报告草稿</text><text x="0" y="173" fill="#5a7187" font-size="16">Markdown 模板输出</text></g>
+  </g>
+</svg>

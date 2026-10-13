@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">临床试验监查助手</title>
+  <desc id="desc">面向 CRA 的本地监查辅助工具：上传文件，检索条款，标记疑点，生成报告草稿。</desc>
+  <rect width="1200" height="390" rx="28" fill="#0b1220"/>
+  <path d="M54 326H1146" stroke="#26364b" stroke-width="2"/>
+  <path d="M760 48V324M934 48V324" stroke="#1b2a3d" stroke-width="1"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+    <text x="58" y="66" fill="#8fa7c2" font-size="18" font-family="ui-monospace,Menlo,monospace" letter-spacing="2">LOCAL CRA REVIEW / EVIDENCE FIRST</text>
+    <text x="58" y="138" fill="#f4f7fb" font-size="58" font-weight="700">临床试验监查助手</text>
+    <text x="60" y="184" fill="#c0cfdf" font-size="25">把监查文件变成可复核的疑点、条款依据与报告草稿。</text>
+    <text x="60" y="246" fill="#ffb454" font-size="20" font-weight="600">AI 只提示疑点 · CRA 保留最终判断</text>
+    <g transform="translate(58 286)">
+      <rect width="192" height="38" rx="19" fill="#17304a" stroke="#2e5475"/>
+      <text x="20" y="25" fill="#dceaf7" font-size="17">数据不出本机</text>
+      <rect x="208" width="184" height="38" rx="19" fill="#17304a" stroke="#2e5475"/>
+      <text x="229" y="25" fill="#dceaf7" font-size="17">Ollama + ChromaDB</text>
+    </g>
+  </g>
+  <g transform="translate(790 76)">
+    <rect width="312" height="226" rx="18" fill="#111d2d" stroke="#3b536d" stroke-width="2"/>
+    <text x="24" y="35" fill="#8fa7c2" font-size="16" font-family="ui-monospace,Menlo,monospace">REVIEW CARD / 02</text>
+    <circle cx="27" cy="70" r="7" fill="#ff9f43"/>
+    <text x="47" y="77" fill="#fff" font-size="21" font-weight="700">疑似异常</text>
+    <text x="24" y="112" fill="#d5e1ed" font-size="17">签署日期晚于首次给药日期</text>
+    <path d="M24 130H286" stroke="#2b4056"/>
+    <text x="24" y="158" fill="#ffb454" font-size="16">依据 · 第6.3节 / 第27条</text>
+    <text x="24" y="188" fill="#9fb3c7" font-size="15">置信度</text>
+    <rect x="91" y="177" width="170" height="10" rx="5" fill="#24374d"/>
+    <rect x="91" y="177" width="122" height="10" rx="5" fill="#ff9f43"/>
+    <text x="269" y="188" fill="#f4f7fb" font-size="15">72%</text>
+  </g>
+</svg>

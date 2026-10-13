@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">本地运行架构</title>
+  <desc id="desc">文件在本机解析，经 Ollama 向量化并写入 ChromaDB，再由本地模型生成可复核提示。</desc>
+  <rect width="1200" height="360" rx="24" fill="#0b1220"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif">
+    <text x="54" y="55" fill="#f4f7fb" font-size="30" font-weight="700">本地证据链</text>
+    <text x="54" y="84" fill="#8fa7c2" font-size="17">所有输入、检索、生成和报告草稿均留在本机</text>
+    <g transform="translate(54 126)">
+      <rect width="206" height="142" rx="16" fill="#132238" stroke="#36516c"/><text x="22" y="37" fill="#8fa7c2" font-size="15" font-family="ui-monospace,Menlo,monospace">INPUT</text><text x="22" y="76" fill="#fff" font-size="23" font-weight="700">监查文件</text><text x="22" y="108" fill="#b8c8d8" font-size="16">文本 / 表格 / 图片</text>
+      <path d="M226 71H290" stroke="#ffb454" stroke-width="3"/><path d="M282 63L294 71L282 79" fill="none" stroke="#ffb454" stroke-width="3"/>
+    </g>
+    <g transform="translate(350 126)">
+      <rect width="240" height="142" rx="16" fill="#132238" stroke="#36516c"/><text x="22" y="37" fill="#8fa7c2" font-size="15" font-family="ui-monospace,Menlo,monospace">RETRIEVAL</text><text x="22" y="76" fill="#fff" font-size="23" font-weight="700">ChromaDB</text><text x="22" y="108" fill="#b8c8d8" font-size="16">法规 / 项目两层隔离</text><path d="M260 71H324" stroke="#ffb454" stroke-width="3"/><path d="M316 63L328 71L316 79" fill="none" stroke="#ffb454" stroke-width="3"/>
+    </g>
+    <g transform="translate(680 126)">
+      <rect width="206" height="142" rx="16" fill="#132238" stroke="#36516c"/><text x="22" y="37" fill="#8fa7c2" font-size="15" font-family="ui-monospace,Menlo,monospace">LOCAL MODEL</text><text x="22" y="76" fill="#fff" font-size="23" font-weight="700">Ollama</text><text x="22" y="108" fill="#b8c8d8" font-size="16">qwen3.5:4b + embedding</text><path d="M226 71H290" stroke="#ffb454" stroke-width="3"/><path d="M282 63L294 71L282 79" fill="none" stroke="#ffb454" stroke-width="3"/>
+    </g>
+    <g transform="translate(1010 126)"><rect width="136" height="142" rx="16" fill="#c56d2a"/><text x="22" y="37" fill="#fff0df" font-size="15" font-family="ui-monospace,Menlo,monospace">OUTPUT</text><text x="22" y="76" fill="#fff" font-size="21" font-weight="700">疑点卡片</text><text x="22" y="108" fill="#fff0df" font-size="15">+ 报告草稿</text></g>
+    <text x="54" y="319" fill="#ffb454" font-size="18" font-weight="600">边界：AI 不给出“合规 / 不合规”的最终结论，CRA 保留判断权</text>
+  </g>
+</svg>
